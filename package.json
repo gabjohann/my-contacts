@@ -5,6 +5,9 @@
   "main": "src/index.js",
   "author": "Lucas Gabriel Fernandes Johann",
   "license": "MIT",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.3"
   },
