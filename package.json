@@ -1,0 +1,14 @@
+{
+  "name": "my-contacts",
+  "version": "1.0.0",
+  "description": "API to store contacts",
+  "main": "src/index.js",
+  "author": "Lucas Gabriel Fernandes Johann",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
