@@ -12,6 +12,7 @@
     "@biomejs/biome": "1.9.3"
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "uuidv4": "^6.2.13"
   }
 }
