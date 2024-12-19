@@ -16,6 +16,12 @@ class ContactsRepository {
       resolve(contacts)
     })
   }
+
+  findById(id) {
+    return new Promise(resolve =>
+      resolve(contacts.find(contact => contact.id === id))
+    )
+  }
 }
 
 module.exports = new ContactsRepository()
